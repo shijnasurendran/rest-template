@@ -1,0 +1,7 @@
+---
+applications:
+  - name: exam-practice
+    path: build/libs/practice.jar
+    route: exam-practice.apps.pcf.paltraining.perficient.com
+    env:
+      MESSAGE: hello from manifest
